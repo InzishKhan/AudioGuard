@@ -1,0 +1,64 @@
+/* src/views/FeedbackPage.css */
+.feedback-page {
+    padding-top: 80px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Background Container */
+  .feedback-background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .feedback-background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1; /* Adjust opacity for better readability */
+  }
+  
+  /* Feedback Card */
+  .feedback-card {
+    background-color: rgba(0, 198, 46, 0.9); /* Semi-transparent background */
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .star-rating {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .star {
+    cursor: pointer;
+    color: #6c757d;
+    font-size: 2rem;
+    transition: color 0.2s;
+  }
+  
+  .star.active {
+    color: #FFD700; /* Gold color for active stars */
+  }
+  
+  textarea {
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+    border: 1px solid #6c757d;
+  }
+  
+  textarea::placeholder {
+    color: #6c757d;
+  }

@@ -1,0 +1,15 @@
+/* src/App.css */
+.section-home {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .section-home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .section-home p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }

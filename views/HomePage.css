@@ -1,0 +1,182 @@
+
+.homepage {
+  font-family: Arial, sans-serif;
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+}
+
+.background-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.homepage-background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.25; 
+}
+
+.hero-section {
+  position: relative;
+  padding: 150px 0;
+  text-align: center;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #9d52e4; 
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.hero-button {
+  font-size: 1.2rem;
+  padding: 10px 30px;
+}
+
+
+.intro-section {
+  position: relative;
+  padding: 100px 0;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #00FF7F; 
+}
+
+.section-text {
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.intro-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.intro-icon {
+  text-align: center;
+}
+
+.intro-icon img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.intro-icon h4 {
+  font-size: 1.5rem;
+  color: #8A2BE2; 
+}
+
+.intro-icon p {
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+
+.cta-section {
+  padding: 100px 0;
+  background-color: #1E1E1E;
+}
+
+.cta-button {
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  margin-top: 20px;
+  background-color: #8A2BE2; 
+  border: none;
+  color: #FFFFFF;
+}
+
+.cta-button:hover {
+  background-color: #FF1493; 
+}
+
+/* Daily Fact Section */
+.fact-section {
+  padding: 100px 0;
+  background-color: #0A0A0A;
+}
+
+.fact-card {
+  border: none;
+  border-radius: 10px;
+  background-color: #1E1E1E;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 20px;
+}
+
+.fact-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #00FF7F; 
+}
+
+.fact-text {
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+
+.footer-section {
+  padding: 60px 0;
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+}
+
+.footer-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #00FF7F; 
+}
+
+.footer-text {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  color: #8A2BE2; 
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #FF1493; 
+  text-decoration: underline;
+}
