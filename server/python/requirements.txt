@@ -1,0 +1,7 @@
+torch>=1.10.0
+librosa>=0.9.1
+numpy>=1.21.0
+flask>=2.0.0  # For Flask option
+fastapi>=0.70.0  # For FastAPI option
+uvicorn>=0.15.0  # For FastAPI option
+python-multipart  # For FastAPI file uploads
